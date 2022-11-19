@@ -8,7 +8,8 @@
     "server": "npm run server --prefix server",
     "build": "npm run build --prefix client",
     "client": "npm run dev --prefix client",
-    "preinstall": "npm install --prefix client; npm install --prefix server"
+    "preinstall": "npm install --prefix client",
+    "postinstall": "npm install --prefix server"
   },
   "keywords": [],
   "author": "",
