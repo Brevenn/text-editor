@@ -1,25 +1,24 @@
 {
-  "name": "JATE",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "npm run build; npm run server",
-    "server": "npm run server --prefix server",
-    "build": "npm run build --prefix client",
-    "client": "npm run dev --prefix client",
-    "preinstall": "npm install --prefix client",
-    "postinstall": "npm install --prefix server"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "if-env": "^1.0.4"
-  },
-  "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
-  }
+    "name": "JATE",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "server": "nodemon server.js --ignore client",
+        "start": "npm run build; node server.js",
+        "build": "npm run build --prefix client",
+        "client": "npm run dev --prefix client",
+        "preinstall": "npm install --prefix client"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.19.3",
+        "@babel/core": "^7.20.2",
+        "nodemon": "^2.0.4"
+    }
 }
