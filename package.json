@@ -5,7 +5,7 @@
     "main": "server.js",
     "scripts": {
         "server": "nodemon server.js --ignore client",
-        "start": "npm run build; node server.js",
+        "start": "node server.js",
         "build": "npm run build --prefix client",
         "client": "npm run dev --prefix client",
         "preinstall": "npm install --prefix client"
