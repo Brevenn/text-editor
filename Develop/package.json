@@ -4,12 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start": "npm run build; npm run server",
+    "server": "npm run server --prefix server",
+    "build": "npm run build --prefix client",
+    "client": "npm run dev --prefix client"
   },
   "keywords": [],
   "author": "",

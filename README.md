@@ -4,13 +4,13 @@
 
 ## *Table of Contents:*
 
-* [Description](#description)
-* [Usage](#usage)
-* [User Story](#user-story)
-* [Deployed Application](#heroku-deployed-app)
-* [Tech](#technologies-used)
-* [References](#references)
-* [Author](#author)
+1. [Description](#description)
+2. [Usage](#usage)
+3. [User Story](#user-story)
+4. [Deployed Application](#heroku-deployed-app)
+5. [Tech](#technologies-used)
+6. [References](#references)
+7. [Author](#author)
 
 #
 
@@ -32,7 +32,7 @@
 
 ### *Heroku Deployed App*
 
-- **[Deployed Application]()**
+- **[A Bomb Text Editor]()**
 
 #
 
@@ -50,7 +50,6 @@
 #### *References*
 
 - **[The Coding Boot Camp of UT-Austin](https://techbootcamps.utexas.edu/coding/)**
-- **[Mongoosejs Guides](https://mongoosejs.com/docs/guides.html)**
 
 #
 
